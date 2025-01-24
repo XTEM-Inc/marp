@@ -5,14 +5,14 @@
 
 h1 {
   background-image: linear-gradient(90deg,
-      var(--su8ru-accent) 0%,
-      var(--su8ru-accent2) 80%);
+      var(--xtem-primary) 0%,
+      var(--xtem-secondary) 80%);
   background-clip: text;
   color: transparent;
   margin-top: 1rem;
   margin-bottom: 0;
   line-height: 1.6;
-  font-size: 1.6rem;
+  font-size: 1.9em;
 }
 
 img+h1 {
@@ -20,10 +20,10 @@ img+h1 {
 }
 
 h2 {
-  color: var(--su8ru-main);
+  color: var(--xtem-base);
   margin-top: 1rem;
   margin-bottom: 0;
-  font-size: 1.2rem;
+  font-size: 1.5em;
 }
 
 p,
@@ -45,7 +45,7 @@ li>ul {
 }
 
 li::marker {
-  color: var(--su8ru-gray);
+  color: var(--xtem-gray);
 }
 
 section::after {
@@ -69,26 +69,25 @@ section::after {
 }
 
 :root {
-  --su8ru-main: oklch(0.6 0.08 245);
-  --su8ru-accent: oklch(0.75 0.12 245);
-  --su8ru-accent2: oklch(0.75 0.12 185);
-  --su8ru-white: oklch(0.95 0.01 245);
-  --su8ru-gray: oklch(0.55 0.04 245);
-  --su8ru-black: oklch(0.39 0.03 245);
+  --xtem-base: oklch(0.45 0.02 0);
+  --xtem-primary: oklch(0.6 0.02 0);
+  --xtem-secondary: oklch(0.5 0.02 0);
+  --xtem-white: oklch(0.98 0 0);
+  --xtem-gray: oklch(0.7 0.01 0);
+  --xtem-black: oklch(0.2 0.01 0);
 }
 
 section {
-  font-family: Inter, 'Zen Kaku Gothic New', sans-serif;
+  background: var(--xtem-white);
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   --fontStack-monospace: 'JetBrains Mono', monospace;
   font-weight: 500;
 
-  background: var(--su8ru-white);
-
-  --fgColor-accent: var(--su8ru-main);
-  --fgColor-default: var(--su8ru-black);
-  --fgColor-muted: var(--su8ru-gray);
-  --header-footer-color: var(--su8ru-gray);
-  --paginate-color: var(--su8ru-gray);
+  --fgColor-accent: var(--xtem-base);
+  --fgColor-default: var(--xtem-black);
+  --fgColor-muted: var(--xtem-gray);
+  --header-footer-color: var(--xtem-gray);
+  --paginate-color: var(--xtem-gray);
 }
 
 strong {
@@ -119,7 +118,7 @@ blockquote>blockquote>blockquote {
   padding-top: 0.25rem;
   margin: 0;
   border: 0;
-  border-top: 0.01rem solid var(--su8ru-gray);
+  border-top: 0.01rem solid var(--xtem-gray);
   position: absolute;
   width: 800px;
   bottom: 80px;

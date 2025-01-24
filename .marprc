@@ -1,4 +1,6 @@
-themeSet: ./src/themes
+allowLocalFiles: true
+options:
+  themeSet: './src/themes/style.css'
 inputDir: ./src
 output: ./dist
 lang: ja
