@@ -37,7 +37,7 @@ ATDDで加速させるAI駆動開発をはじめます。
 - エクステム株式会社 代表取締役
   - AI駆動開発 研修事業 🤖🔧
 - 特定非営利活動法人ニュークリエイター・オルグ 理事長
-  - 子供向け・先生向けののAI教育
+  - 子供向け・先生向けのAI教育
 - GitHub: https://github.com/yosh1
 - X: https://x.com/yoshi1125hisa
 
@@ -98,7 +98,7 @@ GherkinはTDDで使われる記法の一つで、テストケースを自然言�
 これ自体が仕様書としても機能するので、生成AIにも使いやすいです。
 -->
 
-## Gherkinで行うテスト定義
+## <ruby>Gherkin<rt>ガーキン</rt></ruby>で行うテスト定義
 
 ### Gherkinとは
 - TDD/BDDで使われる記法
@@ -152,7 +152,12 @@ AIへの指示が具体的になり、、必要な機能も明確になるため
 
 <div style="text-align: center;">
 オフショア拠点での実施イメージ ↓
-<img src="./img/offshore.png" alt="オフショア" style="width: 120%;">
+<img src="./img/offshore.png" alt="オフショア" style="width: 90%;">
+
+コーディングもCursor, Cline 駆動開発🔥
+<!-- cursor.png -->
+<img src="./img/cursor.png" alt="Cursor" style="width: 70%;">
+
 </div>
 
 </div>
