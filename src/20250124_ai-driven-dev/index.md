@@ -2,6 +2,8 @@
 marp: true
 paginate: true
 theme: style
+header: ATDDで加速させるAI駆動開発 | @yosh1
+title: ATDDで加速させるAI駆動開発 | @yosh1
 footer: 2025-01-24 | AI駆動開発(AI-Driven Development) 勉強会（第5回）
 ---
 
@@ -11,9 +13,15 @@ https://aid.connpass.com/event/340284/
 AI駆動開発(AI-Driven Development) 勉強会（第5回）
 -->
 
-# ATDD × AI駆動開発が超いい話
+# ATDDで加速させるAI駆動開発
 
 <img src="./img/xtem-logo.png" alt="エクステム株式会社" style="margin-top: 2rem; width: 180px;">
+
+#### Yoshihisa Kaino (@yosh1)
+
+2025-01-24 | AI駆動開発(AI-Driven Development) 勉強会（第5回）
+
+
 
 ---
 ## 自己紹介
@@ -21,7 +29,7 @@ AI駆動開発(AI-Driven Development) 勉強会（第5回）
 <img src="./img/me_sq.jpg" alt="改野 由尚" style="width: 240px; height: 240px; border-radius: 50%; position: absolute; right: 80px; top: 150px;">
   
 
-### 改野 由尚 / Yoshihisa Kaino
+### Yoshihisa Kaino (@yosh1)
 
 - 2001年生, 23歳
 - エクステム株式会社 代表取締役
@@ -140,9 +148,6 @@ After:
 - チーム全員が同じ言語で話せる
 - 要件とテストが一体化
 - 品質の早期担保
+- **AIツールがより使いやすく・効果がでる**
 
-### 次のステップ
-- 小さな機能から始めてみる
-- チームで要件を考える習慣づけ
-- テストを書く文化の醸成
-
+## **ぜひATDDでAI駆動開発を加速させてください！**
