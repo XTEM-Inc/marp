@@ -14,6 +14,7 @@
     "build:html": "marp --engine ./engine.mjs",
     "build:ogimage": "marp --image jpeg --allow-local-files",
     "build:images": "cpx \"src/**/images/*\" dist",
-    "build": "run-p build:*"
+    "build": "run-p build:*",
+    "build:pdf": "marp --pdf --engine ./engine.mjs"
   }
 }
