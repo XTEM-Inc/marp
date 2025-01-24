@@ -11,9 +11,9 @@
   "scripts": {
     "dev": "marp --engine ./engine.mjs -s . --html",
     "build:clean": "rimraf dist",
-    "build:html": "marp --engine ./engine.mjs",
+    "build:html": "marp --engine ./engine.mjs --output dist",
     "build:ogimage": "marp --image jpeg --allow-local-files",
-    "build:images": "cpx \"src/**/images/*\" dist",
+    "build:images": "cpx \"src/**/{images,img}/**/*\" dist",
     "build": "run-p build:*",
     "build:pdf": "marp --pdf --engine ./engine.mjs"
   }
